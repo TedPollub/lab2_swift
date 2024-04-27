@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    let allCards: [String] = [
+            ["👹","🥶","😂","😱","😍","😉","😇","🤣",
+            "🐶","🐱","🐭","🐹","🐰","🦊","🐻","🐼",
+            "🍎","🍊","🍋","🍉","🍇","🍓","🍒","🥭"]
+        ]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))]) {
+            ForEach(0..<allCards.count, id: \.self) { index in
+                CardView(content: "spierdalaj")
+            }
         }
-        .padding()
     }
 }
 

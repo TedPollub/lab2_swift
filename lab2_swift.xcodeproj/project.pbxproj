@@ -14,6 +14,7 @@
 		3FD446FD2BDD2539006DCA06 /* lab2_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD446FC2BDD2539006DCA06 /* lab2_swiftTests.swift */; };
 		3FD447072BDD2539006DCA06 /* lab2_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD447062BDD2539006DCA06 /* lab2_swiftUITests.swift */; };
 		3FD447092BDD2539006DCA06 /* lab2_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD447082BDD2539006DCA06 /* lab2_swiftUITestsLaunchTests.swift */; };
+		3FD447162BDD27CC006DCA06 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD447152BDD27CC006DCA06 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3FD447022BDD2539006DCA06 /* lab2_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab2_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD447062BDD2539006DCA06 /* lab2_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2_swiftUITests.swift; sourceTree = "<group>"; };
 		3FD447082BDD2539006DCA06 /* lab2_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FD447152BDD27CC006DCA06 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3FD446ED2BDD2538006DCA06 /* ContentView.swift */,
 				3FD446EF2BDD2539006DCA06 /* Assets.xcassets */,
 				3FD446F12BDD2539006DCA06 /* Preview Content */,
+				3FD447152BDD27CC006DCA06 /* CardView.swift */,
 			);
 			path = lab2_swift;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD446EE2BDD2538006DCA06 /* ContentView.swift in Sources */,
+				3FD447162BDD27CC006DCA06 /* CardView.swift in Sources */,
 				3FD446EC2BDD2538006DCA06 /* lab2_swiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

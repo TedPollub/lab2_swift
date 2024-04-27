@@ -10,10 +10,10 @@ import SwiftUI
 
 struct CardView: View {
     @State var content: String
-    @State var odkryta: Bool
+    @State var zakryte: Bool
     init(content: String) {
         self.content = content
-        self.odkryta = false
+        self.zakryte = true
     }
     var body: some View {
         ZStack(content: {
@@ -23,12 +23,12 @@ struct CardView: View {
                     RoundedRectangle(cornerRadius: 12.0)
                         .stroke(.blue, lineWidth: 2))
                 .onTapGesture {
-                    odkryta = !odkryta
+                    zakryte = !zakryte
                 }
             Text(content)
                 .font(.largeTitle)
                 .allowsHitTesting(false)
-            if (odkryta) {
+            if (zakryte) {
                 RoundedRectangle(cornerRadius: 12.0)
                     .fill(.blue)
                     .allowsHitTesting(false)
